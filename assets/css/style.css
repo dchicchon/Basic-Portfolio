@@ -11,21 +11,23 @@ html, body {
 
 /* .background { */
     /* background-image: url(../Images/interlaced.png); */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
-    /* position: relative; */
-    /* overflow-y: auto; */
 /* } */
 
-nav {
-    right: 0;
+.header {
+    height: 50px;
     width: 100%;
-    top: 0;
-    height: 100px;
-    background-color:white;
+    padding: 20px;
+    background-color: lightgrey;
+}
+
+nav {
+    height: 50px;
+    width: 20%;
+    right: 0;    
     position: absolute;
     text-align: right;
-    padding: 30px 30px 30px 0px;
+    padding: 20px;
+    background-color:white;
 }
 
 .nav a{
