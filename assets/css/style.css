@@ -13,20 +13,25 @@ html, body {
     /* background-image: url(../Images/interlaced.png); */
 /* } */
 
+html {
+    color: grey;
+}
+
 .header {
-    height: 50px;
     width: 100%;
-    padding: 20px;
-    background-color: lightgrey;
+    height: 50px;
+}
+#name {
+    width: 30px;
+    color: white;
+    background-color: #4aaaa5;
 }
 
 nav {
-    height: 50px;
     width: 20%;
-    right: 0;    
+    right: 0;
     position: absolute;
-    text-align: right;
-    padding: 20px;
+    text-align: center;
     background-color:white;
 }
 
