@@ -5,42 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact</title>
+
+    <link rel="stylesheet" type="text/css" href ='assets/css/reset.css'>
     <link rel="stylesheet" type = 'text/css' href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
 </head>
 
 <body>
-    
-    <header>
-        <h1>Daniel Chicchon</h1>
-    </header>
-    
-    <hr>
-    
-    <div class="container">
 
-        <h1>Contact</h1>
+    <header>
+
+        <h1 id='name'>Daniel Chicchon</h1>
+
+        <nav>
+            <a href="index.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+        </nav>
 
         <hr>
+            
+    </header>
 
-        <form action ='action_page.php'>
+    
+    <section>
 
-            <label for="yourName">Name</label>
-            <input type="text" id = 'yourName' name='Name' placeholder='Your name..'>
+        <main>
 
-            <br>
+            <h1 id="about">Contact</h1>
 
-            <label for="yourEmail">Email</label>
-            <input type="text" id= 'yourEmail' name ='Email' placeholder='Your email..'>
+            <hr>
 
-            <br>
+            <form action ='action_page.php'>
 
-            <label for="yourMessage">Message</label>
-            <textarea name="yourMessage" id="yourMessage" placeholder="Write something.." style='height:200px'>
-            </textarea>
-            <input type ='submit' value='Submit'>
+                    <label for="yourName">Name</label>
+                    <input type="text" id = 'yourName' name='Name' placeholder='Your name..'>
+        
+                    <br>
+        
+                    <label for="yourEmail">Email</label>
+                    <input type="text" id= 'yourEmail' name ='Email' placeholder='Your email..'>
+        
+                    <br>
+        
+                    <label for="yourMessage">Message</label>
+                    <textarea name="yourMessage" id="yourMessage" placeholder="Write something.." style='height:200px'>
+                    </textarea>
+                    <input type ='submit' value='Submit'>
+        
+                </form>
 
-        </form>
-    </div>
+        </main>
 
+    </section>
+
+    <footer>
+
+        <div class = 'box'></div>
+
+        <div class="copyright">copyright</div>
+        
+    </footer>
+
+    
 </body>
 </html>
