@@ -45,22 +45,24 @@ nav a{
     margin-left: 20px;
 }
 
-section {
-    width: 1000px;
-    margin: 30px auto 0px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: lightgrey;
-    background-color: white;
-}
-
 #about {
     color: #4aaaa5;
     margin-bottom: 10px;
 }
 
 main {
+    padding: 30px;
     margin: 30px;
+    height: 300px;
+    width: 1000px;
+    margin: 30px auto 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+    background-color: white;
+}
+
+#me {
 }
 
 .content {
@@ -92,6 +94,8 @@ h1, p {
     line-height: 25px;
 }
 
+p {
+}
 h1 {
     font-size: 25px;
 }
