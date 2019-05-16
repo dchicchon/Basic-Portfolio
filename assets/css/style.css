@@ -24,7 +24,7 @@ header {
 
 #name {
     width: 210px;
-    margin-left: 180px;
+    margin-left: 150px;
     margin-top: 0px;
     padding: 25px;
     color: white;
@@ -35,7 +35,7 @@ header {
 nav {
     width: 20%;
     top: 40px;
-    right: 190px;
+    right: 160px;
     position: absolute;
     text-align: right;
     background-color:white;
@@ -43,6 +43,8 @@ nav {
 
 nav a{
     margin-left: 20px;
+    text-decoration: none;
+    color: #777777;
 }
 
 #about {
@@ -91,11 +93,22 @@ footer {
 }
 
 h1, p {
-    line-height: 25px;
+    line-height: 27.5px;
 }
 
-p {
+#one {
+    position: absolute;
+    width: 725px;
+    right: 175px;
+    top: 190px;
+}
+
+#two {
+    margin-top: 10px;
 }
 h1 {
     font-size: 25px;
+}
+p {
+    color: #777777
 }
