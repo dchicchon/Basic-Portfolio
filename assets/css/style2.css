@@ -16,9 +16,13 @@ body {
 }
 
 header {
-    background: #ff0;
-    height: 30px;
-    padding: 10px;
+    height: 80px;
+    background: white;
+    border-style: solid;
+}
+
+#name {
+    
 }
 
 main {
@@ -36,5 +40,5 @@ footer {
     bottom: 0;
     width: 100%;
     height: 60px;
-    background: #6cf;
+    background: #666666;
 }
