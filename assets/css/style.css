@@ -68,7 +68,8 @@ main {
 }
 
 .content {
-    margin: 20px 0px ;
+    margin: 20px 0px;
+    position: absolute;
 }
 
 footer {
